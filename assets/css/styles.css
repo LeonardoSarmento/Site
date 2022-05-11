@@ -169,6 +169,10 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     margin-bottom: 5rem;
     line-height: 1.2;
 }
+.objetivo-text a{
+    text-decoration: underline;
+    font-weight: 700;
+}
 .objetivo-text > h2{
     font-size: 8rem;
     margin-bottom: 5rem;
@@ -339,6 +343,7 @@ details[open] img{
     text-transform: uppercase;
     line-height: 1.2;
 }
+
 .contact-img{
     width: 100%;
     height: auto;
@@ -358,6 +363,9 @@ details[open] img{
     border: 1px solid #000;
     background: #ffffff;
     margin: 1rem 0 1rem 0;
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    font-weight: 500;
 }
 .contact-form{
     grid-column: span 2;
