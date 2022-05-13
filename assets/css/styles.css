@@ -272,6 +272,12 @@ details[open] img{
     padding-left: 5rem;
     padding-bottom: 3rem;
 }
+.grid img{
+    width: 40rem;
+    border: 3px solid green;
+    border-radius: 3rem;
+}
+
 .grid h3::before{
     counter-increment: gridcounter;
     content: counter(gridcounter);
@@ -286,7 +292,8 @@ details[open] img{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;
+    height: fit-content;
+    min-height: 100vh;
 }
 .game-heading{
     text-align: center;
@@ -367,6 +374,14 @@ details[open] img{
     padding: 0.5rem;
     font-weight: 500;
 }
+.contact-list a{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.contact-list img{
+    width: 2.3rem;
+}
 .contact-form{
     grid-column: span 2;
 }
@@ -442,7 +457,9 @@ details[open] img{
     margin: 0;
     padding: 3rem;
 }
-
+.footer img{
+    width: 1rem;
+}
 .close-menu {
     display: none;
   }
@@ -699,7 +716,7 @@ details[open] img{
         height: fit-content;
     }
     .game-content{
-        height: 100vh;
+        height: fit-content;
     }
     .game-heading{
         position: relative;
