@@ -274,6 +274,7 @@ details[open] img{
 }
 .grid img{
     width: 40rem;
+    height: 27rem;
     border: 3px solid green;
     border-radius: 3rem;
 }
