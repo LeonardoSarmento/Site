@@ -146,6 +146,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .menu ul li a:hover::after {
     width: 60%;
     left: 21%;
+
 }
 .menu-spacing{
     height: 65px;
@@ -206,6 +207,11 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .exp-grid{
     display:grid;
     grid-template-rows: auto auto;
+}
+.btn-curriculo{
+    padding: 3px;
+    margin: 2px;
+    color: #000;
 }
 .details{
     display: flex;
@@ -685,7 +691,7 @@ details[open] img{
        }
 
 }
-@media (min-width:821px) and (max-width:2160px){
+@media (min-width:821px) and (max-width:3840px){
     .objetivo-content{
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -727,7 +733,7 @@ details[open] img{
         min-height: 100%;
     }
 }
-@media (min-width:721px) and (max-width:2160px) and (max-height:800px){
+@media (min-width:721px) and (max-width:3840px) and (max-height:800px){
     .grid, .game-content,.game-heading{
         display: grid;
         grid-template-columns: repeat(2,1fr)/2fr 2fr;
@@ -848,7 +854,7 @@ details[open] img{
         grid-area: img;
     }
 }
-@media (min-width:1421px) and (max-width:2160px){
+@media (min-width:1421px) and (max-width:3840px){
     .obj-grid{
         display: grid;
         grid-template-areas: 
