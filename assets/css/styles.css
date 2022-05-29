@@ -94,7 +94,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     right: 0;
     width: 100%;
     border-bottom: 0.1rem solid var(--primary-color);
-    z-index: 1;
+    z-index: 2;
 }
 .menu-content{
     display: flex;
@@ -318,18 +318,6 @@ details[open] img{
     justify-content: flex-start;
     gap: var(--gap);
     
-}
-.calculadora{
-    grid-area: calculadora;
-}
-.campominado{
-    grid-area: campominado;
-}
-.snakegame{
-    grid-area: snakegame;
-}
-.supertrunfo{
-    grid-area: supertrunfo;
 }
 .contact-content{
     display: grid;
@@ -904,4 +892,22 @@ details[open] img{
     .obj-img{
         grid-area: img;
     }
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.carrosel-filmes{
+    margin: 2rem;
+    width: 80vw;
+}
+.item{
+    margin: 0 2rem;
+}
+.item img{
+    width: 100%;
+    height: 100%;
 }
