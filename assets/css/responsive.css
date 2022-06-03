@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000;
+    --gap: 3rem;
+    --linkhover: #e01c1c;
+}
+
 @media (max-width:540px) {
     .objetivo-content {
         display: grid;
@@ -96,7 +109,7 @@
 
     .close-menu:checked~.close-menu-label::after {
         content: '×';
-        z-index: 3;
+        z-index: 4;
         font-size: 4rem;
     }
 
@@ -127,7 +140,7 @@
 
 }
 
-@media (min-width:541px) and (max-width:820px) {
+@media (min-width:541px) and (max-width:950px) {
     .objetivo-content {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -206,6 +219,8 @@
 
     .close-menu:checked~.close-menu-label::after {
         content: '×';
+        z-index: 4;
+        font-size: 5rem;
     }
 
     .menu-spacing {
@@ -235,7 +250,7 @@
 
 }
 
-@media (min-width:821px) and (max-width:3840px) {
+@media (min-width:951px) and (max-width:3840px) {
     .objetivo-content {
         display: grid;
         grid-template-columns: 1fr 2fr;
