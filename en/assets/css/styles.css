@@ -152,6 +152,19 @@ p {
     color: var(--secondary-color);
 }
 
+.flag-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    width: 2.5rem;
+    position: relative;
+    right: 1.3rem;
+}
+
 .main-content {
     max-width: 100vh;
     margin: 0 auto;

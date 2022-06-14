@@ -175,6 +175,19 @@ p {
 
 }
 
+.flag-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    width: 2.5rem;
+    position: relative;
+    right: 1.3rem;
+}
+
 .menu-spacing {
     height: 65px;
 }
